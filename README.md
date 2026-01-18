@@ -83,6 +83,16 @@ credit-risk-assessment/
 - Tableau Public (free)
 - Microsoft Excel
 
+## Data Setup
+
+**Download the dataset:**
+1. Go to 1. Go to [Lending Club Loan Data on Kaggle](https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv/data)
+2. Download `loan.csv` (1.19 GB)
+3. Place in `data/raw/` folder
+
+**Create the database:**
+Run `01_credit_risk_exploration.ipynb` - Cell 11 automatically creates the SQLite database.
+
 **Setup:**
 
 1. Clone repository
@@ -163,8 +173,8 @@ df = pd.read_sql("SELECT * FROM loans LIMIT 1000", conn)
 
 Data Science Graduate Student at Northeastern University. Background in healthcare machine learning with published research. Previously developed prediction systems at Medtigo achieving 92% accuracy.
 
-- LinkedIn: [your-url]
-- Portfolio: [your-url]
+- LinkedIn: https://www.linkedin.com/in/s-spandan
+- Portfolio: https://spandansurdas.vercel.app/ 
 - Email: spandan@northeastern.edu
 
 ## License
